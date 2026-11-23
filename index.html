@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Art'Insect Habitat · Artesanato em madeira e natureza</title>
+<meta name="description" content="Peças artesanais em madeira e materiais reciclados, hotéis para insetos e projetos inspirados na natureza. Peças únicas, feitas à mão.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <!-- LOGÓTIPO: para usar o seu logótipo, coloque o endereço da imagem em src e apague o bloco .logo-badge abaixo -->
+  <img class="logo-img" id="logo" src="img/Logo.jpeg" alt="Logótipo Art'Insect Habitat">
+  <!--<div class="logo-badge" aria-hidden="true">🐝</div>
+  <div class="logo-text">Art’Insect</div>
+  <div class="logo-sub">• Habitat •</div>-->
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#criacoes">Criações</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<main class="wrap">
+  <div class="hero">
+    <h1>Art’Insect Habitat</h1>
+    <p class="tagline">Artesanato • Madeira • Natureza</p>
+    <hr class="rule">
+  </div>
+
+  <section id="sobre" class="center">
+    <p>Dedico-me à criação de peças artesanais, utilizando a madeira como matéria-prima principal e dando uma nova vida a materiais reciclados e reutilizados.</p>
+    <p>Desenvolvo trabalhos decorativos e utilitários, bem como projetos inspirados na natureza, como hotéis para insetos, procurando aliar criatividade, originalidade e funcionalidade.</p>
+    <p>Cada peça é criada com dedicação e cuidado, valorizando o trabalho manual, a reutilização de materiais e o respeito pelo ambiente.</p>
+  </section>
+
+  <section id="criacoes">
+    <h2>As minhas criações</h2>
+    <hr class="rule">
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🪵</div>
+        <h3>Peças decorativas</h3>
+        <p>Trabalhos em madeira que dão carácter e calor a qualquer espaço.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🛠️</div>
+        <h3>Peças utilitárias</h3>
+        <p>Objetos úteis para o dia a dia, feitos à mão e pensados para durar.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🐞</div>
+        <h3>Hotéis para insetos</h3>
+        <p>Abrigos inspirados na natureza para receber abelhas, joaninhas, etc., e ajudar na polinização das plantas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <hr class="rule">
+    <!-- Para cada foto: substitua o texto do <figure> por <img src="ENDEREÇO_DA_FOTO" alt="descrição"> -->
+    <div class="gallery">
+            <figure><img src="img/penguin.jpeg"/></figure>
+            <figure><img src="img/deer.jpeg"/></figure>
+            <figure><img src="img/dino.jpeg"/></figure>
+            <figure><img src="img/fox.jpeg"/></figure>
+            <figure><img src="img/pig.jpeg"/></figure>
+            <figure><img src="img/Dolphin.jpeg"/></figure>
+            <figure><img src="img/frog.jpeg"/></figure>
+            <figure><img src="img/owl.jpeg"/></figure>
+    </div>
+  </section>
+
+  <p class="motto">Peças únicas, feitas à mão, com respeito pela natureza.</p>
+</main>
+
+<section id="contacto" class="contact">
+  <h2>Contacto</h2>
+  <p><a href="mailto:luisfaa@hotmail.fr">luisfaa@hotmail.fr</a></p>
+  <p><strong>Tel.</strong> <a href="tel:+351914846711" style="color:inherit;text-decoration:none">914 846 711</a></p>
+</section>
+
+<footer>© Art’Insect Habitat</footer>
+
+<script>
+  // Mostra o logótipo real automaticamente se tiver colocado um endereço em src
+  var l = document.getElementById('logo');
+  if (l && l.getAttribute('src')) {
+    l.style.display = 'block';
+    var b = document.querySelector('.logo-badge'); if (b) b.style.display = 'none';
+  }
+</script>
+</body>
+</html>
